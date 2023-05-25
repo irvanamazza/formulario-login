@@ -6,82 +6,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <main>
-<form>
-<div>
-    <label for="nome">Name</label>
-    <input type="text" id="nome" name="nome">
-</div>
-<div>
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email">
-</div>
-<div>
-    <label for="tel">Telefone</label>
-    <input type="tel" id="tel" name="tel">
-</div>
-<div>
-    <label for="nascimento">Data de nascimento</label>
-    <input type="date" id="nascimento" name="nascimento">
-</div>
-<div>
-    <label for="curriculo">Curriculo</label>
-    <input type="file" id="curriculo" name="curriculo">
-</div>
-<div>
-    <p>Sexo</p>
-    
-    <label for="masculino">
-        <span>Masculino</span>
-        <input type="radio" name="masculino" id="sexo" value="masculino">
+    <main class="container">
+        <form class="formulario">
+            <div class="campo-form">
+                <label for="nome">Name</label>
+                <input type="text" id="nome" name="nome">
+            </div>
+            <div class="campo-form">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="campo-form">
+                <label for="tel">Telefone</label>
+                <input type="tel" id="tel" name="tel">
+            </div>
+            <div class="campo-form">
+                <label for="nascimento">Data de nascimento</label>
+                <input type="date" id="nascimento" name="nascimento">
+            </div>
+            <div class="campo-form">
+                <label for="curriculo">Curriculo</label>
+                <input type="file" id="curriculo" name="curriculo">
+            </div>
+            <div class="campo-form">
+                <p>Sexo</p>
 
-    </label>
+                <label for="masculino">
+                    <input type="radio" name="masculino" id="sexo" value="masculino">
+                    <span>Masculino</span>
 
-    <label for="feminino">
-        <Span>Feminino</Span>
-        <input type="radio" id="feminino" name="sexo" value="feminino">
+                </label>
 
-        <div>
-            <p>Cursos</p>
-            
-            <label for="adm">
-                <span>Administraçao</span>
-                <input type="checkbox" name="adm" id="adm" value="adm">
-             </label>
-            
-             <label for="comp">
-                <span>Eng. da Computação</span>
-                <input type="checkbox" name="comp" id="comp" value="comp">
-             </label>
+                <label for="feminino">
+                    <input type="radio" id="feminino" name="sexo" value="feminino">
+                    <Span>Feminino</Span>
+                </label>
+            </div>
+            <div class="campo-form">
+                <p>Cursos</p>
 
-             <label for="direito">
-                <span>Direito</span>
-                <input type="checkbox" name="Dir" id="dir" value="dir">
-             </label>
+                <label for="adm">
+                    <input type="checkbox" name="adm" id="adm" value="adm">
+                    <span>Administraçao</span>
+                </label>
 
-             <label for="med">
-                <span>Medicina</span>
-                <input type="checkbox" name="med" id="med" value="med">
-             </label>
-        </div>
+                <label for="comp">
+                    <input type="checkbox" name="comp" id="comp" value="comp">
+                    <span>Eng. da Computação</span>
+                </label>
 
+                <label for="direito">
+                    <input type="checkbox" name="Dir" id="dir" value="dir">
+                    <span>Direito</span>
+                </label>
 
-    </label>
-    
-</div>
-<div>
-    <label for=""></label>
-    <input type="text">
-</div>
-
-
-</form>
-
+                <label for="med">
+                    <input type="checkbox" name="med" id="med" value="med">
+                    <span>Medicina</span>
+                </label>
+            </div>
+            <button class="form-button"> enviar</button>
+        </form>
     </main>
-
 </body>
 
 </html>
